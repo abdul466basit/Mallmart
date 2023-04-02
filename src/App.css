@@ -1,0 +1,643 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+a{
+  text-decoration: none;
+  display: inline-block;
+}
+.gap-10{
+  gap: 10px
+}
+.gap-15{
+  gap: 15px
+}
+.gap-20{
+  gap: 20px;
+}
+.gap-30{
+  gap: 30px
+}
+
+.form-control :focus{
+  box-shadow: none;
+  border-color: inherit;
+}
+
+.button{
+  background-color: #131921;
+  color: #fff;
+  font-size: 12px;
+  padding: 9px 19px;
+  border-radius: 20px;
+}
+.button:hover{
+  background-color: white;
+  color: #131921;
+  font-weight: 600;
+}
+.button-cancel{
+  background-color: white;
+  color: #131921;
+  font-size: 14px;
+  padding: 8px 22px;
+  border-radius: 20px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.card-wrapper{
+  background-color: white;
+  box-shadow: 0 0 10px #EAEAEA;
+  padding: 15px;
+}
+/* ------------------------------------------------- Header Part Start--------------------------------------------- */
+.header-top-strip{
+  background-color: #131921;
+  border-bottom: 2px solid #3b4149;
+}
+
+.header-upper{
+  background-color: #131921;
+}
+.header-bottom{
+  background-color: #232f32;
+}
+
+.header-bottom .menu-links a, button{
+  color: white;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  letter-spacing: 0.3s;
+  text-transform: uppercase;
+}
+
+.header-bottom .dropdown button:focus{
+  box-shadow: none;
+}
+.header-bottom .dropdown-menu{
+  background-color: #131921;
+  width: 100%;
+  transform: translate3d(0px, 56px, 0px) !important;
+}
+.header-bottom .dropdown-item{
+  padding: 20px;
+  margin-bottom: 3px;
+  border-bottom: 1px solid #3b4149;
+}
+.header-bottom .dropdown-item:hover{
+  background-color: transparent;
+  color: aquamarine !important;
+}
+
+/* ---------------------------------------------- Header Part End------------------------------------------------- */
+
+/* -----------------------------------------------Footer Part Start------------------------------------------------*/
+
+footer{
+  background-color: #232f32;
+}
+footer:not(:first-child){
+  border-top: 1px solid white;
+}
+footer .input-group-text{
+  background-color: #232f32;
+  color: white;
+  padding: 8px 17px;
+}
+
+/* -----------------------------------------------Footer Part Ends-------------------------------------------------*/
+
+
+
+/* -----------------------------------------------Home Page Starts-------------------------------------------------*/
+
+/* ====================================================Home Wrapper 01 (CSS)=======================================*/
+
+.home-wrapper-1 {
+  position: relative;
+}
+.main-banner {
+  position: relative;
+}
+.main-banner-content{
+  top: 50%;
+  left: 67%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+}
+.main-banner-content h4{
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 24px;
+  color: #131921;
+  margin: 0 0 12px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+.main-banner-content h5{
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: -2px;
+  font-weight: 500;
+  text-transform: none;
+}
+.main-banner-content p{
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.4px;
+  color: #131921;
+}
+
+/* ----------------------------------------------------Small Banner 01 (CSS)------------------------------------------*/
+.small-banner{
+  width: 49%;
+}
+.small-banner-content{
+  width: 100%;
+  top: 45%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  color: #131921;
+  text-align: center;
+}
+.small-banner-content h4{
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 30px;
+  color: white;
+  margin: 0 0 12px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+.small-banner-content h5{
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: -2px;
+  font-weight: 500;
+  text-transform: none;
+}
+.small-banner-content p{
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0.4px;
+  color: #131921;
+}
+/* ----------------------------------------------------Small Banner 02 (CSS)------------------------------------------------*/
+.small-banner-02{
+  width: 49%;
+}
+.small-banner-02-content{
+  top: 45%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  color: #131921;
+  text-align: center;
+}
+.small-banner-02-content h4{
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 20px;
+  color: black;
+  margin: 0 0 12px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+.small-banner-02-content h5{
+  font-size: 22px;
+  line-height: 44px;
+  letter-spacing: -2px;
+  font-weight: 500;
+  text-transform: none;
+}
+.small-banner-02-content p{
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 10px;
+  letter-spacing: 0.4px;
+  color: #131921;
+}
+/* ----------------------------------------------------Small Banner 03 (CSS)-----------------------------------------------*/
+.small-banner-03{
+  width: 49%;
+}
+.small-banner-03-content{
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: #131921;
+}
+.small-banner-03-content h4{
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #131921;
+  margin: 0 0 12px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+
+}
+.small-banner-03-content h5{
+  font-size: 26px;
+  line-height: 44px;
+  letter-spacing: -2px;
+  font-weight: 500;
+  text-transform: none;
+  
+}
+.small-banner-03-content p{
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 12px;
+  letter-spacing: 0.4px;
+  color: #131921;
+}
+/* ----------------------------------------------------Small Banner 04 (CSS)-----------------------------------------------*/
+.small-banner-04{
+  width: 49%;
+}
+.small-banner-04-content{
+  width: 100%;
+  top: 45%;
+  left: 67%;
+  transform: translate(-50%, -50%);
+  color: #131921;
+  text-align: center;
+}
+.small-banner-04-content h4{
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #3b4149;
+  margin: 0 0 12px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+.small-banner-04-content h5{
+  font-size: 26px;
+  line-height: 44px;
+  letter-spacing: -2px;
+  font-weight: 500;
+  text-transform: none;
+}
+.small-banner-04-content p{
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 12px;
+  letter-spacing: 0.4px;
+  color: #131921;
+}
+/* ----------------------------------------------------Home Wrapper 01 End CSS----------------------------------------------*/
+
+/* ====================================================Home Wrapper 02 (CSS)================================================*/
+
+.home-wrapper-2{
+  background-color: #EAEAEA
+}
+
+.categories{
+  background-color: white;
+  box-shadow: 0 0 10px #0000001a;
+  padding: 15px;
+}
+
+.categories > div{
+  width: 24%;
+}
+.categories > div:nth-child(1),
+.categories > div:nth-child(2),
+.categories > div:nth-child(3),
+.categories > div:nth-child(4),
+.categories > div:nth-child(5),
+.categories > div:nth-child(6),
+.categories > div:nth-child(7),
+.categories > div:nth-child(8){
+  border-bottom: 2px solid #EAEAEA;
+}
+.categories > div:nth-child(1),
+.categories > div:nth-child(2),
+.categories > div:nth-child(3),
+.categories > div:nth-child(5),
+.categories > div:nth-child(6),
+.categories > div:nth-child(7){
+  border-right: 2px solid #EAEAEA;
+}
+.sub-categories{
+  width: 120px;
+  height: 100px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+/* ----------------------------------------------------Home Wrapper 02 End CSS------------------------------------*/
+/* ----------------------------------------------------Home Page End----------------------------------------------*/
+
+
+/*=====================================================Blog Part Start===============================================*/
+.blog-card{
+  background-color: white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.blog-card img{
+  border-top-right-radius: 10px !important;
+  border-top-left-radius: 10px !important;
+}
+.blog-content{
+  padding: 15px;
+}
+.blog-content h5{
+  font-size: 18px;
+  line-height: 22px;
+  color: #131921;
+}
+.section-heading{
+  font-size: 26px;
+  line-height: 32px;
+  font-weight: 500;
+}
+/*-----------------------------------------------------Blog Part Ends------------------------------------------------*/
+
+/*=====================================================Product Card Start============================================*/
+.product-card{
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 450px;
+}
+.product-image{
+  height: 250px;
+  position: relative;;
+}
+.product-main-img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.product-card .product-image img{
+  object-fit: cover;
+}
+.product-card .product-image > img:last-child{
+  display: none;
+}
+.product-card:hover .product-image > img:nth-child(1){
+  display: none;
+}
+.product-card:hover .product-image > img:last-child{
+  display: block;
+}
+.product-card:hover .action-bar{
+  right: 0px;
+  transform: translateX(-30px);
+}
+.product-card .product-details h6{
+  color: #bf4800;
+  font-size: 13px;
+}
+.product-card .product-details h5{
+  color: #1c1c1b;
+  font-size: 15px;
+}
+.product-card .product-details p.price{
+  color: #1c1c1b;
+  font-size: 16px;
+}
+.action-bar{
+  top: 10%;
+  right: -20px;
+  transition: 0.3s;
+}
+
+/*-----------------------------------------------------Product Card Ends---------------------------------------------*/
+/*=====================================================Special Product card==========================================*/
+.special-product-card{
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+/*-----------------------------------------------------Special Product Ends------------------------------------------*/
+
+/*=====================================================Famous Product card==========================================*/
+.famous-card img{
+  border-radius: 10px;
+}
+.famous-content{
+  position: absolute;
+  top: 23%;
+  left: 47%;
+  transform: translate(-50%, -50%);
+  color: #131921;
+  text-align: left;
+  width: 80%; /* increase the width of the famous-content div */
+  max-width: 400px; /* set a maximum width to prevent it from becoming too wide */
+}
+.famous-content h6{
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 20px;
+  color: #131921;
+  margin: 0 0 4px;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+}
+.famous-content h5{
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -1px;
+  font-weight: 500;
+  text-transform: none;
+}
+.famous-content p{
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0px;
+  color: #131921; 
+}
+
+/*-----------------------------------------------------Famous Product Ends------------------------------------------*/
+/*=====================================================Our Store Page Start=========================================*/
+.filter-card{
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+.filter-title{
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  color: #1c1c1b;
+}
+.filter-card ul{
+  font-weight: 500;
+  list-style-type: none;
+  font-size: 13px;
+  line-height: 30px;
+  color: #3B3E3B;
+  cursor: pointer;
+}
+.sub-title{
+  padding-bottom: 5px;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #1c1c1b;
+  margin-bottom: 0px;
+}
+.filter-card .form-check-label{
+  font-size: 14px;
+}
+
+.filter-sort-grid{
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+.filter-sort-sub p{
+  width: 100px;
+}
+.total-products{
+  width: 200;
+}
+/*-----------------------------------------------------Our Store Page Ends------------------------------------------*/
+/*=====================================================Contact Page Start===========================================*/
+
+.contact-wrapper-inner{
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+  gap: 15px;
+}
+.contact-wrapper-inner > div{
+  width: 48%;
+}
+.contact-title{
+  margin-bottom: 30px;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 35px;
+  text-align: left;
+}
+.contact-wrapper-inner form .form-control{
+  background-color: #EAEAEA;
+  border-radius: 10px;
+  border-color: transparent;
+  padding: 10px;
+}
+/*-----------------------------------------------------Contact Page Ends--------------------------------------------*/
+
+/*=====================================================Login Page Start=============================================*/
+
+.login-card{
+  padding: 20px;
+  width: 450px;
+  background-color: white;
+  margin: 30px auto;
+  border-radius: 10px;
+}
+.login-card .login-card-inner h3{
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+/*-----------------------------------------------------Login Page Ends----------------------------------------------*/
+/*=====================================================SignUp Page Start=============================================*/
+
+.signup-card{
+  padding: 20px;
+  width: 450px;
+  background-color: white;
+  margin: 30px auto;
+  border-radius: 10px;
+}
+.signup-card .signup-card-inner h3{
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 30px;
+  text-align: center;
+}
+/*-----------------------------------------------------SignUp Page Ends----------------------------------------------*/
+/*==================================================Forget Password Page Start======================================*/
+
+.fg-password-card{
+  padding: 20px;
+  width: 450px;
+  background-color: white;
+  margin: 30px auto;
+  border-radius: 10px;
+}
+.fg-password-card .fg-password-card-inner h3{
+  font-size: 26px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.fg-password-card .fg-password-card-inner p{
+  color: gray;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.form-control{
+  background-color: #EAEAEA;
+  border: none;
+}
+/*--------------------------------------------------Forgrot Password Page Ends--------------------------------------*/
+/*==================================================Reset Password Page Start======================================*/
+
+.fg-password-card .reset-password-card-inner h3{
+  font-size: 26px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.fg-password-card .reset-password-card-inner p{
+  color: gray;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
+/*--------------------------------------------------Reset Password Page Ends--------------------------------------*/
+.product-card-single {
+  flex-basis: calc(25% - 12px); /* Set the width of each card to 25% minus the margin */
+  margin-bottom: 0px;
+}
+
+/* Add responsive styles */
+@media screen and (max-width: 991px) {
+  .product-card-single {
+    flex-basis: calc(33.33% - 10px); /* Set the width of each card to 33.33% minus the margin */
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .product-card-single {
+    flex-basis: calc(50% - 10px); /* Set the width of each card to 50% minus the margin */
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .product-card-single {
+    flex-basis: 100%; /* Set the width of each card to 100% */
+  }
+}
+
